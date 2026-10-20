@@ -61,7 +61,7 @@ class MainActivity : ComponentActivity() {
         pipView = findViewById(R.id.previewPip)
         mainView.implementationMode = PreviewView.ImplementationMode.COMPATIBLE
         pipView.implementationMode = PreviewView.ImplementationMode.COMPATIBLE
-        pipView.setZOrderMediaOverlay(true)
+        
         timer = findViewById(R.id.timer)
         status = findViewById(R.id.status)
         btnMode = findViewById(R.id.btnMode)
